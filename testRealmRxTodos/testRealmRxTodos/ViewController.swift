@@ -17,7 +17,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("bobo")
         print("hihi")
+        print("bugs")
         
+        print("ViewController")
     }
 
 
