@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         let menuItem = UIMenuItem(title: "Delete", action: #selector(handleDelete))
         
         menu.menuItems = [menuItem]
+        print("sexuyasdasdas")
     }
     
     func handleDelete(sender: UIMenuItem) {
