@@ -11,18 +11,23 @@ import Alamofire
 
 
 class ViewController: UIViewController {
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("bobo")
-        print("hihi")
-        print("bugs")
+        let menu = UIMenuController.shared
+        menu.setTargetRect(CGRect.zero, in: self.view)
+        menu.arrowDirection = .down
+        menu.setMenuVisible(true, animated: true)
+
+        let menuItem = UIMenuItem(title: "Delete", action: #selector(handleDelete))
         
-        print("ViewController")
+        menu.menuItems = [menuItem]
     }
-
-
-
+    
+    func handleDelete(sender: UIMenuItem) {
+        print("delete")
+    }
+    
 }
 
