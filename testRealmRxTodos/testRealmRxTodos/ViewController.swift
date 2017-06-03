@@ -42,5 +42,6 @@ class ViewController: UIViewController {
     // camera 05
     // camera 06
     // camera 07
+    // camera 08
 }
 
