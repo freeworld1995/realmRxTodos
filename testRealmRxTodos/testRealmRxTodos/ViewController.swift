@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         menu.menuItems = [menuItem]
         print("sexuyasdasdas")
         // nigga 
+        // error 2
     }
     
     func handleDelete(sender: UIMenuItem) {
