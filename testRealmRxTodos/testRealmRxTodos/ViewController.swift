@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         // error 2
         
         // I push this but this shit is WRONG !!!
+        // another shit i dont want
     }
     
     func handleDelete(sender: UIMenuItem) {
