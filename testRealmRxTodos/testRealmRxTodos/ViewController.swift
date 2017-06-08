@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         print("sexuyasdasdas")
         // nigga 
         // error 2
+        
+        // I push this but this shit is WRONG !!!
     }
     
     func handleDelete(sender: UIMenuItem) {
